@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body, header, section, aside, footer {
+  padding: 40px 15px;
+  color: white;
+  border: 1px solid #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #E8EFF3;
+  color: #000000;
+  border: none;
+}
+
+.header {
+  background-color: #7ab3ef;
+}
+
+.hero {
+  background-color:	#368ce7;
+}
+
+.content {
+  background-color: #1666ba;
+  flex: 1;
+}
+
+.sidebar {
+  background-color: #08375b;
+  flex: 0 1 300px;
+}
+
+footer {
+  background-color: #3C3533;
+}
+
+@media screen and (min-width: 640px){
+  .flex-container {
+      display: flex;
+  }    
+}
+
+.wrapper {
+  margin: auto;
+  max-width: 75rem;
+}
